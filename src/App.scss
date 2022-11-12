@@ -17,26 +17,29 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    position: relative;
 
-    .image1 {
-        position: absolute;
-        left: -85px;
-        top: 50px;
+    .container-intern {
+        position: relative;
+        width: max-content;
+
+        .image1 {
+            position: absolute;
+            left: -85px;
+            top: 50px;
+        }
+
+        .image2 {
+            position: absolute;
+            left: -132px;
+            top: 200px;
+            z-index: 2;
+        }
+
+        .image3 {
+            position: absolute;
+            right: 600px;
+            top: -310px;
+            z-index: -1;
+        }
     }
-
-    .image2 {
-        position: absolute;
-        left: 117px;
-        top: 320px;
-        z-index: 2;
-    }
-
-    .image3 {
-        position: absolute;
-        right: 600px;
-        top: -310px;
-        z-index: -1;
-    }
-
 }
