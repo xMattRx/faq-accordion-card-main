@@ -29,15 +29,33 @@ body {
   left: -85px;
   top: 50px;
 }
+@media screen and (max-width: 867px) {
+  .container .container-intern .image1 {
+    top: -124px;
+    left: 20%;
+    width: 270px;
+  }
+}
 .container .container-intern .image2 {
   position: absolute;
   left: -132px;
   top: 200px;
   z-index: 2;
 }
+@media screen and (max-width: 867px) {
+  .container .container-intern .image2 {
+    display: none;
+  }
+}
 .container .container-intern .image3 {
   position: absolute;
   right: 600px;
   top: -310px;
   z-index: -1;
+}
+@media screen and (max-width: 867px) {
+  .container .container-intern .image3 {
+    right: 114px;
+    top: 8px;
+  }
 }/*# sourceMappingURL=App.css.map */
